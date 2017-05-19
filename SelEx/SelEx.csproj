@@ -56,10 +56,12 @@
     <Compile Include="SelExPackage.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\LICENSE">
+      <Link>Resources\LICENSE</Link>
+    </None>
     <None Include="app.config" />
     <None Include="Key.snk" />
     <None Include="packages.config" />
-    <Content Include="Resources\LICENSE" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>
