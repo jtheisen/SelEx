@@ -126,8 +126,8 @@ namespace SelEx
 
         private void RegisterKeyBindingsCallback(object sender, EventArgs e)
         {
-            SetCommandBinding("Extras.SelEx.Expand", "Global::Ctrl+Up Arrow");
-            SetCommandBinding("Extras.SelEx.Revert", "Global::Ctrl+Down Arrow");
+            SetCommandBinding("SelEx.Expand", "Global::Ctrl+Up Arrow");
+            SetCommandBinding("SelEx.Revert", "Global::Ctrl+Down Arrow");
         }
 
         void SetCommandBinding(String commandName, String keyBinding)

@@ -31,7 +31,7 @@
 
     <Buttons>
       <Button guid="guidSelExPackageCmdSet" id="ExpandCommandId" priority="0x0100" type="Button">
-        <Parent guid="guidSelExPackageCmdSet" id="MyMenuGroup" />
+        <!--<Parent guid="guidSelExPackageCmdSet" id="MyMenuGroup" />-->
         <Icon guid="guidImages" id="bmpPic1" />
         <Strings>
           <ButtonText>Expand selection (SelEx)</ButtonText>
@@ -40,7 +40,7 @@
         </Strings>
       </Button>
       <Button guid="guidSelExPackageCmdSet" id="RevertCommandId" priority="0x0101" type="Button">
-        <Parent guid="guidSelExPackageCmdSet" id="MyMenuGroup" />
+        <!--<Parent guid="guidSelExPackageCmdSet" id="MyMenuGroup" />-->
         <Icon guid="guidImages" id="bmpPic1" />
         <Strings>
           <ButtonText>Revert selection (SelEx)</ButtonText>
@@ -62,6 +62,17 @@
     <Bitmaps>
       <Bitmap guid="guidImages" href="Resources\SelEx.png" usedList="bmpPic1"/>
     </Bitmaps>
+    <!--<Menus>
+      <Menu guid="cmdSetGuidMyProductCommands" id="menuIDMainMenu" priority="0x0000" type="Menu">
+        <Annotation>
+          <Documentation>this is an annotation</Documentation>
+        </Annotation>
+        <CommandFlag>AlwaysCreate</CommandFlag>
+        <Strings>
+          <ButtonText>MainMenu</ButtonText>
+        </Strings>
+      </Menu>
+    </Menus>-->
   </Commands>
 
   <KeyBindings>
@@ -91,4 +102,5 @@
     <GuidSymbol name="guidSourceCodeTextEditor" value="{8b382828-6202-11d1-8870-0000f87579d2}" />
     <GuidSymbol name="guidSourceCodeTextWithEncodingEditor" value="{c7747503-0e24-4fbe-be4b-94180c3947d7}" />
   </Symbols>
+
 </CommandTable>
