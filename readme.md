@@ -1,7 +1,9 @@
 SelEx - expand selections along Roslyn nodes
 ============
 
-With SelEx you can get the smallest expression selected around where the cursor is.
+SelEx is a Visual Studio extension.
+
+It lets you get the smallest expression selected around where the cursor is.
 
 From there you can expand the selection to larger expressions, statements, and other C# syntax nodes.
 
